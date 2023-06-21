@@ -1,4 +1,4 @@
-function getOddSum(array) {
+function addTheSum(array) {
     console.log(array);
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
@@ -23,4 +23,4 @@ function getOnlyOdd(array) {
 }
 const allNumbers = [13, 21, 57, 46, 65, 67, 63, 61, 71]
 getOnlyOdd(allNumbers)
-getOddSum(allNumbers)
+addTheSum(allNumbers)
